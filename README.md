@@ -8,8 +8,8 @@ Official code for our NLP701 Project "Analyzing the Robustness and the Reliabili
 1. [Abstract](#abstract)
 2. [Robustness](#robustness)
 3. [Reliability](#reliability)
-4. [Code](#code)
-5. [Contact](#contact)
+   1. [Code](#code)
+4. [Contact](#contact)
 
 <hr>
 
