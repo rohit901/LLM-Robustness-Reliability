@@ -9,6 +9,7 @@ Official code for our NLP701 Project "Analyzing the Robustness and the Reliabili
 2. [Robustness](#robustness)
 3. [Reliability](#reliability)
    1. [Code](#code)
+   2. [Data](#data)
 4. [Contact](#contact)
 
 <hr>
@@ -33,6 +34,44 @@ Official code for our NLP701 Project "Analyzing the Robustness and the Reliabili
 <a name="code"></a>
 
 ## Code
+To replicate the environment for the project and run the code, follow these steps:
+1. **Clone the Repository:**
+   ```bash
+   git clone git@github.com:rohit901/LLM-Robustness-Reliability.git
+   cd LLM-Robustness-Reliability
+   ```
+2. **Create and Activate a Conda Environment:**
+   ```bash
+   conda create --name nlp_project python=3.11
+   conda activate nlp_project
+   ```
+3. **Install Pip Packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **To Generate Data From GPT3_5/GPT4:**
+   ```
+   python reliability/generate_gpt_data.py
+   ```
+   Make sure that you have your OpenAI API key saved in a `.env` file, and place that file in `reliability/.env`. The content of the file should be:
+   ```plaintext
+   OPENAI_API_KEY=sk-<your_api_key>
+   ```
+5. **To Evaluate Hallucination using SelfCheckGPT-Prompt:**
+   ```
+   python reliability/evaluate_selfcheckgpt_prompt.py
+   ```
+6. **To Evaluate Hallucination using BERTScore:**
+   ```
+   python reliability/evaluate_bertscore.py
+   ```
+
+<a name="data"></a>
+
+## Data
+The data for the reliability experiments can be downloaded from the following link:
+
+[Download Reliability Experiments Data](https://huggingface.co/datasets/rohit901/nlp_proj_llm_hallucination)
 
 <a name="contact"></a>
 
