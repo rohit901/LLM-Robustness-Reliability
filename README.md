@@ -85,7 +85,4 @@ Currently the codebase only supports training with LLaMA or Pythia based models.
 
 
 
-## License
-`llm-attacks` is licensed under the terms of the MIT license. See LICENSE for more details.
-
 
