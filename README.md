@@ -2,6 +2,8 @@
 
 [Hanan Gani](), [Rohit K Bharadwaj](https://rohit901.github.io), [Muhammad Huzaifa]()
 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://rohit901.github.io/media/LLM_Robustness_Reliability_NLP_701.pdf)
+
 Official code for our NLP701 Project "Analyzing the Robustness and the Reliability of Large Language Models"
 
 # Table of Contents
